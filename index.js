@@ -68,8 +68,8 @@ const questions = [
 
   // Add engineer or Intern
   {
-    type: 'checkbox',
-    name: 'license',
+    type: 'list',
+    name: 'empCategory',
     message: 'Do you want to add an Engineer or Intern? (Required)',
     choices: ['Engineer', 'Intern']
   },
